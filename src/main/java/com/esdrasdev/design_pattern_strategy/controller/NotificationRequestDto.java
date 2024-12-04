@@ -33,5 +33,4 @@ public class NotificationRequestDto {
         this.destination = destination;
         this.message = message;
     }
-
 }
