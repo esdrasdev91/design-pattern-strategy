@@ -9,7 +9,7 @@ public enum NotificationChannel {
     DISCORD(new DiscordNotificationStrategy()),
     INSTAGRAM(new InstagramNotificationStrategy()),
     TWITTER(new TwitterNotificationStrategy());
-//    EMAIL(new EmailNotificationStrategy()),
+    EMAIL(new EmailNotificationStrategy()),
 //    WHATSAPP(new WhatsappNotificationStrategy());
 
     private final NotificationStrategy strategy;
